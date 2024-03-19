@@ -1,0 +1,16 @@
+#words vowels consonants
+t=int(input())
+v="aeiouAEIOU"
+for i in range(t):
+    s=list(input().split())
+    vc=0
+    cc=0
+    wc=len(s)
+    for j in s:
+        for k in j:
+            if k.isalpha():
+                if k in v:
+                    vc+=1
+                else:
+                    cc+=1
+    print(wc,vc,cc)

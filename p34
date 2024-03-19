@@ -1,0 +1,15 @@
+#find first repeating character-hackerrank
+t=int(input())
+for i in range(t):
+    s=input()
+    d={}
+    a="."
+    for i in s:
+        if i not in d:
+            d[i]=1
+        else:
+            d[i]+=1
+            a=i
+            break
+print(a)
+#wrong

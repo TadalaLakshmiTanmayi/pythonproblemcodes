@@ -1,0 +1,10 @@
+str_input = input().lower()
+char_dict = {}
+for char in str_input:
+    if char.isalpha():
+        char_dict[char] = True
+
+if len(char_dict) == 26:
+    print("yes")
+else:
+    print("no")

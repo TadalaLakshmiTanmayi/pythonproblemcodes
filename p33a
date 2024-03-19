@@ -1,0 +1,11 @@
+str=input()
+s1={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+s2=set()
+str.lower()
+for i in str:
+    if i in s1:
+        s2.add(i)
+if(len(s2)==26):
+    print("yes")
+else:
+    print("no")

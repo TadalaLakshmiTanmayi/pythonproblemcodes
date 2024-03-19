@@ -1,0 +1,13 @@
+s=input()
+s.lower()
+v="aeiou"
+c="bcdfghjklmnpqrstwxyz"
+cc=0
+vo=0
+for i in s:
+    if i in v:
+        vo+=1
+    elif i in c:
+        cc+=1
+print(vo,cc)
+#printing count of vowels and consonants

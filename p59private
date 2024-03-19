@@ -1,0 +1,13 @@
+class car:
+    __maxspeed=0
+    __name=""
+    def __init__(self):
+        self.__maxspeed=200
+        self.__name="itachi"
+    def isdrive(self):
+        print(self.__maxspeed)
+car1=car()
+car1.isdrive()
+car1.__maxspeed=10
+car1.isdrive()
+#private access modifier

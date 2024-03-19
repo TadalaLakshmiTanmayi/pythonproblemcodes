@@ -1,0 +1,16 @@
+#most freq word in a document(Maximum word frequency)
+n=int(input())
+d={}
+maxx=1
+l=""
+for i in range(n):
+    s=input()
+    if s not in d:
+        d[s]=1
+    else:
+        d[s]+=1
+if d[s] > maxx:
+        maxx = d[s]
+        l=s
+print(l,maxx)
+

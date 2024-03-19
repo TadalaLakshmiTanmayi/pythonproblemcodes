@@ -1,0 +1,12 @@
+#pangrams-hackerrank
+str=input()
+str.strip()
+str.lower()
+s=set()
+for i in (str):
+    if(i.isalpha()):
+        s.add(i)
+if(len(s)==26):
+    print("pangram")
+else:
+    print("no")

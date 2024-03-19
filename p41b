@@ -1,0 +1,6 @@
+s=input()
+k=input()
+count=0
+for i in range(len(s)):
+    if s[i]==k:
+        count=count+1

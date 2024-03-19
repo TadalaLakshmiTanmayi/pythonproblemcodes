@@ -1,0 +1,14 @@
+n=int(input())
+phonebook={}
+for i in range(n):
+    name,phone=input().split()
+    phonebook.update({name: phone})
+#for i in range(n):
+while True:
+    name1=input()
+    num=phonebook.get(name1)
+    if name1 in phonebook:
+        print(name1,num)
+    else:
+        print("not found")
+#dict and map-hackerrank

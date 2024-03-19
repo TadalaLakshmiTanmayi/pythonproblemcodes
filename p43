@@ -1,0 +1,10 @@
+s=input()
+s.lower()
+b=["a","e","i","o","u"]
+for i in s:
+    if i not in b:
+        print("false")
+        break
+else:
+    print("true")
+

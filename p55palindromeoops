@@ -1,0 +1,13 @@
+class check:
+    def __init__(self,s):
+        self.s=s
+    def ispalindrome(self):
+        if self.s==self.s[::-1]:
+            print("yes")
+        else:
+            print("no")
+obj1=check("hello")
+obj2=check("sas")
+obj1.ispalindrome()
+obj2.ispalindrome()
+#without parameter without returntype obj1.ispalindrome() we dont have print here so we have to use print in method

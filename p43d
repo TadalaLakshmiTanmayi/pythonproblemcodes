@@ -1,0 +1,8 @@
+s=input()
+b="aeiouAEIOU"
+for i in s:
+    if i not in b:
+        print("false")
+        break
+else:
+    print("true")

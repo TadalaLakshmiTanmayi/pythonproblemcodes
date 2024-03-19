@@ -1,0 +1,11 @@
+s=input()
+s.lower()
+v="aeiou"
+vc=0
+cc=0
+for i in s:
+    if i in v:
+        vc+=1
+    elif i.isalpha():
+        cc+=1
+print(vc,cc)

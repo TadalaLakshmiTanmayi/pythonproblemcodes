@@ -1,0 +1,11 @@
+#running compare
+t=int(input())
+for i in range(t):
+    n=int(input())
+    a=list(map(int,input().split()))
+    b=list(map(int,input().split()))
+    count=0
+    for k in range(n):
+        if(b[k]<2*a[k]) and (a[k]<2*b[k]):
+            count=count+1
+    print(count)

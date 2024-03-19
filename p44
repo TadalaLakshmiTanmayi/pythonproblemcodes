@@ -1,0 +1,11 @@
+#digits in a string
+s=input()
+k="0123456789"
+c=0
+for i in s:
+    if i not in k:
+        c=c+1
+if c==0:
+    print("yes")
+else:
+    print("no")

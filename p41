@@ -1,0 +1,8 @@
+#occurrence of a character
+s=input()
+k=input()
+count=0
+for i in s:
+    if(i==k):
+        count+=1
+print(count)
