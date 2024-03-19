@@ -1,0 +1,17 @@
+#cooking competition teams-codechef
+t=int(input())
+for j in range(t):
+    n=int(input())
+    counte=0
+    counto=0
+    for i in range(1,n+1):
+       if(n%i==0 and i%2==0):
+           counte=counte+1
+       elif(n%i==0 and i%2==1):
+           counto=counto+1
+       else:
+           break
+    if(counte==counto):
+       print("1")
+    else:
+      print("0")
